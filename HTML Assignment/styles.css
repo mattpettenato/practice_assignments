@@ -1,0 +1,83 @@
+
+.header-1{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.form1 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.names {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4%;
+  width: 483px;
+}
+
+.form1 input{
+  height: 25px;
+  font-size: 1.17em;
+}
+
+input{
+  margin-bottom: 16px;
+}
+
+input[type=text]:focus {
+  border: 3px solid #89CFF0;
+  outline: none !important;
+}
+
+input[type=tel]:focus {
+  border: 3px solid #89CFF0;
+  outline: none !important;
+}
+
+.tel-num{
+  width: 483px;
+}
+
+.password{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4%;
+  width: 483px;
+}
+.emails{
+  width: 483px;
+}
+
+.terms-conditions {
+  display: flex;
+  width: 483px;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+
+.agree-box{
+  margin-right: 5px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.agree-box1{
+  display: flex;
+  width: 122px;
+  align-items: center;
+  align-content: center;
+}
+
+.agree1 {
+  padding: 5px;
+}
+
