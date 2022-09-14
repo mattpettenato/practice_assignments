@@ -73,11 +73,31 @@ input[type=tel]:focus {
 .agree-box1{
   display: flex;
   width: 122px;
-  align-items: center;
-  align-content: center;
+  margin-right: 5px;
+  /* align-items: center;
+  align-content: center; */
+}
+
+.agree-box1 label{
+  padding-top: 8px;
 }
 
 .agree1 {
   padding: 5px;
 }
 
+.terms-conditions p{
+  font-size: 15px;
+}
+
+.terms-conditions a{
+  color: #428BCA;
+  text-decoration: none;
+
+}
+
+.terms-conditions button{
+  background-color: #428BCA;
+  color: white;
+  border: none;
+}
