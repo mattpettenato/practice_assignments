@@ -23,12 +23,18 @@
 }
 
 .form1 input{
-  height: 25px;
+  height: 40px;
   font-size: 1.17em;
 }
 
 input{
   margin-bottom: 16px;
+  border-radius: 5px;
+  border: 0.5px solid #D9D9D9;
+}
+
+button{
+  border-radius: 5px;
 }
 
 input[type=text]:focus {
@@ -79,7 +85,7 @@ input[type=tel]:focus {
 }
 
 .agree-box1 label{
-  padding-top: 8px;
+  padding-top: 15px;
 }
 
 .agree1 {
@@ -100,4 +106,35 @@ input[type=tel]:focus {
   background-color: #428BCA;
   color: white;
   border: none;
+}
+
+input::placeholder {  
+  padding-left: 10px; 
+} 
+
+.submit-button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4%;
+  width: 483px;
+}
+.submit-button button{
+  font-size: 1.17em;
+  height: 40px;
+  width: 100%;
+}
+
+.register {
+  background-color: #428BCA;
+  color: white;
+  border: none;
+
+}
+
+.Sign-In {
+  background-color: #5CB85C;
+  color: white;
+  border: none;
+
 }
