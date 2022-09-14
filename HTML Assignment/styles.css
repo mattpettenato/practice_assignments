@@ -18,8 +18,8 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 3%;
-  width: 483px;
+  gap: 13%;
+  width: 247px;
 }
 
 
@@ -55,23 +55,23 @@ input:focus {
 }
 
 .tel-num{
-  width: 477px;
+  width: 512px;
 }
 
 .password{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 3%;
-  width: 483px;
+  gap: 13%;
+  width: 247px;
 }
 .emails{
-  width: 477px;
+  width: 512px;
 }
 
 .terms-conditions {
   display: flex;
-  width: 483px;
+  width: 513px;
   flex-direction: row;
   align-content: center;
   align-items: center;
@@ -87,8 +87,6 @@ input:focus {
   display: flex;
   width: 122px;
   margin-right: 5px;
-  /* align-items: center;
-  align-content: center; */
 }
 
 .agree-box1 label{
@@ -97,7 +95,7 @@ input:focus {
 
 .info-2{
   display: flex;
-  width: 483px;
+  width: 515px;
   flex-direction: column;
   align-content: center;
   justify-content: center;
@@ -109,7 +107,7 @@ input:focus {
 }
 
 .terms-conditions p{
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .terms-conditions a{
@@ -124,21 +122,22 @@ input:focus {
   border: none;
 }
 
-input::placeholder {  
-  padding-left: 10px; 
-} 
+input{
+  padding: 5px 5px 5px 15px;
+}
 
 .submit-button{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 3%;
-  width: 483px;
+  gap: 8%;
+  width: 513px;
 }
+
 .submit-button button{
   font-size: 1.17em;
   height: 40px;
-  width: 100%;
+  width: 250px;
 }
 
 .register {
@@ -152,5 +151,4 @@ input::placeholder {
   background-color: #5CB85C;
   color: white;
   border: none;
-
 }
