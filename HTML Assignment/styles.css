@@ -49,6 +49,11 @@ input[type=tel]:focus {
   outline: none !important;
 }
 
+input:focus {
+  border: 3px solid #89CFF0;
+  outline: none !important;
+}
+
 .tel-num{
   width: 477px;
 }
