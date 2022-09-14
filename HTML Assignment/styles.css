@@ -18,9 +18,11 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 4%;
+  gap: 3%;
   width: 483px;
 }
+
+
 
 .form1 input{
   height: 40px;
@@ -48,18 +50,18 @@ input[type=tel]:focus {
 }
 
 .tel-num{
-  width: 483px;
+  width: 477px;
 }
 
 .password{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 4%;
+  gap: 3%;
   width: 483px;
 }
 .emails{
-  width: 483px;
+  width: 477px;
 }
 
 .terms-conditions {
@@ -86,6 +88,15 @@ input[type=tel]:focus {
 
 .agree-box1 label{
   padding-top: 15px;
+}
+
+.info-2{
+  display: flex;
+  width: 483px;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .agree1 {
@@ -116,7 +127,7 @@ input::placeholder {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 4%;
+  gap: 3%;
   width: 483px;
 }
 .submit-button button{
