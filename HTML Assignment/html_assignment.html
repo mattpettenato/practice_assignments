@@ -8,32 +8,32 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="header-1">
-    <h1 class="h1-head">Sign Up</h1>
+  <header class="head">
+    <h1 class="head__item">Sign Up</h1>
   </header>
-  <form class="form1">
-    <div class="names">
-      <input class='fname' type="text" id="fname" name="fname" placeholder="First Name">
+  <form class="form">
+    <div class="form form__names">
+      <input type="text" id="fname" name="fname" placeholder="First Name">
       <input type="text" id="lname" name="lname" placeholder="Last Name">
     </div>
-    <div class="info-2">
+    <div class="form form__info">
       <input type="tel" id="phone" class="tel-num" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Mobile No.">
-      <input class="emails" type="email" id="email" name="email" placeholder="Email Address">
+      <input class="form form__info--emails" type="email" id="email" name="email" placeholder="Email Address">
     </div>
-    <div class="password">
+    <div class="form form__password">
         <input type="password" placeholder="Password" id="password" required>
         <input type="password" placeholder="Confirm Password" id="confirm_password" required>
     </div>
-    <div class="terms-conditions">
-      <div class="agree-box1">
+    <div class="form form__tos">
+      <div class="form form__tos--agreebox">
         <input type="checkbox" id="agree" name="agree1" value="Agree">
-        <label for="agree1" class="agree-box">I Agree</label>
+        <label for="agree1" class="form form__tos--agreebox--label">I Agree</label>
       </div>
       <p>By clicking <button>Register</button>, you agree to the <a href="https://cataas.com/cat/says/hello%20world!" target="_blank">Terms and Conditions</a> set out by this site, including our Cookie Use.</p>
     </div>
-    <div class="submit-button">
-      <button class="register">Register</button>
-      <button class="Sign-In">Sign In</button>
+    <div class="form form__submit">
+      <button class="form form__submit--register">Register</button>
+      <button class="form form__submit--sign">Sign In</button>
     </div>
   </form>
 </body>

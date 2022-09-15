@@ -1,5 +1,5 @@
 
-.header-1{
+.head{
   display: flex;
   flex-direction: row;
   align-content: center;
@@ -7,14 +7,14 @@
   align-items: center;
 }
 
-.form1 {
+.form {
   display: flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
 }
 
-.names {
+.form__names {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -22,9 +22,7 @@
   width: 247px;
 }
 
-
-
-.form1 input{
+.form input{
   height: 40px;
   font-size: 1.17em;
 }
@@ -58,18 +56,18 @@ input:focus {
   width: 512px;
 }
 
-.password{
+.form__password{
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 13%;
   width: 247px;
 }
-.emails{
+.form__info--emails{
   width: 512px;
 }
 
-.terms-conditions {
+.form__tos {
   display: flex;
   width: 513px;
   flex-direction: row;
@@ -77,23 +75,26 @@ input:focus {
   align-items: center;
 }
 
-.agree-box{
+.form__tos--agreebox--label{
   margin-right: 5px;
   font-weight: bold;
   font-size: 15px;
 }
 
-.agree-box1{
+.form__tos--agreebox{
   display: flex;
   width: 122px;
   margin-right: 5px;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
 }
 
-.agree-box1 label{
-  padding-top: 15px;
+.form__tos--agreebox label{
+  padding-bottom: 12px;
 }
 
-.info-2{
+.form__info{
   display: flex;
   width: 515px;
   flex-direction: column;
@@ -106,17 +107,17 @@ input:focus {
   padding: 5px;
 }
 
-.terms-conditions p{
+.form__tos p{
   font-size: 16px;
 }
 
-.terms-conditions a{
+.form__tos a{
   color: #428BCA;
   text-decoration: none;
 
 }
 
-.terms-conditions button{
+.form__tos button{
   background-color: #428BCA;
   color: white;
   border: none;
@@ -126,7 +127,7 @@ input{
   padding: 5px 5px 5px 15px;
 }
 
-.submit-button{
+.form__submit{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -134,21 +135,26 @@ input{
   width: 513px;
 }
 
-.submit-button button{
+.form__submit--register {
+  background-color: #428BCA;
+  color: white;
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
+.form__submit button{
   font-size: 1.17em;
   height: 40px;
   width: 250px;
 }
 
-.register {
-  background-color: #428BCA;
-  color: white;
-  border: none;
 
-}
-
-.Sign-In {
+.form__submit--sign {
   background-color: #5CB85C;
   color: white;
   border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
 }
